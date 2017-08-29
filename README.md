@@ -12,7 +12,7 @@ Reach me via the internet mail at kmmfmb@mail.missouri.edu or @ me on twitter (I
 
 check out my art stuff <a href="http://www.katmcd.com">here</a> ... or don't... it's fine
 
-visit <a href= "katmcd/frank.md"> this page </a> for a picture of my dog, frank
+visit <a href= "https://github.com/J4502-fs17/katmcd/blob/master/frank.md"> this page </a> for a picture of my dog, frank
 
 joke time: why can't you trust a nosy pepper? they'll get <strong> jalapeño business </strong>
 
