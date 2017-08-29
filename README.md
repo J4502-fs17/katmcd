@@ -1,5 +1,4 @@
-# katmcd
-<h1>Kathryn McDonnell's GitHub Page</h1>
+<h1>Kathryn McDonnell's GitHub Page for J4502</h1>
 
 <strong> Hey, hi, hello! </strong>
 
