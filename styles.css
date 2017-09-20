@@ -15,7 +15,7 @@ h2{
   color: #585858;
   text-align: center;
   font-family: 'Playfair Display', 'Bodoni 72', 'Palatino Linotype', serif;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 h3{
@@ -36,18 +36,11 @@ p{
   font-size: 1.5em;
 }
 
-#container{ /*this is how you target an id*/
-  /* width:95%;
-  background-color:#ffffff;
-  margin:0 auto;
-}*/
-
 #nav li{
   list-style-type:none;
   float:left;
-  margin:0;
+  margin-left: 25px;
   padding:0;
-  width:25%;
 }
 
 #nav a:link, #nav a:visited{
