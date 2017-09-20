@@ -15,7 +15,7 @@ h2{
   color: #585858;
   text-align: center;
   font-family: 'Playfair Display', 'Bodoni 72', 'Palatino Linotype', serif;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h3{
@@ -38,24 +38,23 @@ p{
 
 #nav li{
   list-style-type:none;
-  float:left;
-  margin-left: 25px;
-  padding:0;
+  position: sticky;
+  top: 2;
 }
 
 #nav a:link, #nav a:visited{
   display:block;
   color:#ffffff;
-  background-color: #98bf21;
+  background-color: #7dcbd7;
   font-weight:bold;
   text-align:center;
   text-decoration:none;
   padding:4px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Pathway Gothic One', 'Avenir Next Condensed Regular','Franklin Gothic Condensed', sans-serif;
 }
 
 #nav a:hover, #nav a:active{
-  background-color:#7a991a;
+  background-color:#5c959e;
 }
 
 #nav{
