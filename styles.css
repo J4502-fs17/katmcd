@@ -4,19 +4,19 @@ font-family: 'Satisfy', cursive;
 font-family: 'Pathway Gothic One', sans-serif;
 font-family: 'Quicksand', sans-serif;*/
 
-title{
+h1{
   color:black;
   font-family: 'Playfair Display', 'Bodoni 72', 'Palatino Linotype', serif;
   font-size: 5em;
 }
 
-h1{
+h2{
   color: #585858;
   font-family:'Satisfy', 'Freestyle Script', cursive;
   font-size: 3.5em;
 }
 
-h2{
+h3{
   color: #585858;
   font-family:'Satisfy', 'Freestyle Script', cursive;
   font-size: 2.5em;
