@@ -35,10 +35,10 @@ p{
 }
 
 #container{ /*this is how you target an id*/
-  width:95%;
+  /* width:95%;
   background-color:#ffffff;
   margin:0 auto;
-}
+}*/
 
 #nav li{
   list-style-type:none;
