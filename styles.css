@@ -15,11 +15,12 @@ h2{
   color: #585858;
   text-align: center;
   font-family: 'Playfair Display', 'Bodoni 72', 'Palatino Linotype', serif;
-  font-size: 1.5em;
+  font-size: .75em;
 }
 
 h3{
   color: #585858;
+  text-align: center;
   font-family:'Satisfy', 'Freestyle Script', cursive;
   font-size: 2em;
 }
