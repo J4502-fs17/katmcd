@@ -14,14 +14,14 @@ h1{
 h2{
   color: #585858;
   text-align: center;
-  font-family:'Satisfy', 'Freestyle Script', cursive;
-  font-size: 1em;
+  font-family: 'Playfair Display', 'Bodoni 72', 'Palatino Linotype', serif;
+  font-size: 1.2em;
 }
 
 h3{
   color: #585858;
   font-family:'Satisfy', 'Freestyle Script', cursive;
-  font-size: 0.66em;
+  font-size: 1em;
 }
 
 /*body{
@@ -33,7 +33,7 @@ h3{
 p{
   color:#807F7F;
   font-family:'Quicksand', 'Avenir Book', 'Gill Sans', sans-serif;
-  font-size: .5em;
+  font-size: .8em;
 }
 
 #container{ /*this is how you target an id*/
