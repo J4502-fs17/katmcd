@@ -63,9 +63,10 @@ p{
 
 .caption{ /*this is how you target a class*/
   color:black;
-  font-family: Georgia, "Times New Roman," serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size:0.8em;
-  margin-top:0;
+  float: right;
+  margin-top:0 25px 0 0;
   font-style:italic;
   text-align:right;
 }
