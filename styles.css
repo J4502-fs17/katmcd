@@ -5,7 +5,7 @@ font-family: 'Pathway Gothic One', sans-serif;
 font-family: 'Quicksand', sans-serif;*/
 
 h1{
-  color:black;
+  color:white;
   text-align: center;
   font-family: 'Playfair Display', 'Bodoni 72', 'Palatino Linotype', serif;
   font-size: 3em;
@@ -39,9 +39,10 @@ p{
 }
 
 #heading{ /*this is how you target an id*/
-  width:95%;
+  width:100%;
+  height: 200px;
   background-color:#cce5e9;
-  margin:0 auto;
+  margin: auto;
 }
 
 #nav li{
