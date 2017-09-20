@@ -38,6 +38,12 @@ p{
   font-size: 1.5em;
 }
 
+#heading{ /*this is how you target an id*/
+  width:95%;
+  background-color:#cce5e9;
+  margin:0 auto;
+}
+
 #nav li{
   list-style-type:none;
   position: sticky;
