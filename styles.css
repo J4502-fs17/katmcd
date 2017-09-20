@@ -47,7 +47,6 @@ p{
   display:block;
   color:#ffffff;
   background-color: #7dcbd7;
-  width: 155px;
   font-weight:bold;
   text-align:center;
   text-decoration:none;
@@ -68,7 +67,7 @@ p{
   font-family: Helvetica, Arial, sans-serif;
   font-size:0.8em;
   float: right;
-  margin-right: 25px;
+  margin-right: 0 25px 0 0;
   font-style:italic;
   text-align:right;
 }
