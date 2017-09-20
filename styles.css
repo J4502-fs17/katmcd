@@ -1,1 +1,97 @@
+/*css font rules:
+font-family: 'Playfair Display', serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
 
+title{
+  color:black;
+  font-family: 'Playfair Display', 'Bodoni 72', 'Palatino Linotype', serif;
+  font-size: 2em;
+}
+
+h1{
+  color: #585858;
+  font-family:'Satisfy', 'Freestyle Script', cursive;
+  font-size: 1em;
+}
+
+h2{
+  color: #585858;
+  font-family:'Satisfy', 'Freestyle Script', cursive;
+  font-size: 0.5em;
+}
+
+body{
+  background-color:#807F7F;
+  font-family: 'Pathway Gothic One', 'Avenir Next Condensed Regular','Franklin Gothic Condensed', sans-serif;
+}
+
+p{
+  color:#807F7F;
+  font-family:'Quicksand', 'Avenir Book', 'Gill Sans', sans-serif;
+}
+
+#container{ /*this is how you target an id*/
+  width:95%;
+  background-color:#ffffff;
+  margin:0 auto;
+}
+
+#nav li{
+  list-style-type:none;
+  float:left;
+  margin:0;
+  padding:0;
+  width:25%;
+}
+
+#nav a:link, #nav a:visited{
+  display:block;
+  color:#ffffff;
+  background-color: #98bf21;
+  font-weight:bold;
+  text-align:center;
+  text-decoration:none;
+  padding:4px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, #nav a:active{
+  background-color:#7a991a;
+}
+
+#nav{
+  padding:0;
+}
+
+.caption{ /*this is how you target a class*/
+  color:black;
+  font-family: Georgia, "Times New Roman," serif;
+  font-size:0.8em;
+  margin-top:0;
+  font-style:italic;
+  text-align:right;
+}
+
+#footer{
+  color:black;
+  font-family: Georgia, "Times New Roman," serif;
+  font-size: 0.8em;
+  border-top:1px dotted black;
+  /*border-width:1px 0px;
+  border-style:dotted;
+  border-color:black;*/
+}
+
+img{ /*images styled with borders automatically, so clear the styling!*/
+  border-style:none;
+}
+
+/*color notes:
+hue- the gamut of pure colors; color at full saturation without tint or shade;
+tint- color mixed with white / shade- color mixed with black;
+hex colors - #rrggbb - responds to binary coding of computers, values between 00 and ff;
+parameter defines the intensity of color - values between 0 and 255;
+rgba - adds an alpha channel, adds transparency, value between 0.0 and 1.0;
+hsl - hue (degrees on color wheel from 0 to 360), saturation, and lightness;}
