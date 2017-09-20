@@ -7,29 +7,31 @@ font-family: 'Quicksand', sans-serif;*/
 title{
   color:black;
   font-family: 'Playfair Display', 'Bodoni 72', 'Palatino Linotype', serif;
-  font-size: 2em;
+  font-size: 5em;
 }
 
 h1{
   color: #585858;
   font-family:'Satisfy', 'Freestyle Script', cursive;
-  font-size: 1em;
+  font-size: 3.5em;
 }
 
 h2{
   color: #585858;
   font-family:'Satisfy', 'Freestyle Script', cursive;
-  font-size: 0.5em;
+  font-size: 2.5em;
 }
 
-body{
+/*body{
   background-color:#807F7F;
   font-family: 'Pathway Gothic One', 'Avenir Next Condensed Regular','Franklin Gothic Condensed', sans-serif;
-}
+  font-size: 2em;
+}*/
 
 p{
   color:#807F7F;
   font-family:'Quicksand', 'Avenir Book', 'Gill Sans', sans-serif;
+  font-size: 2em;
 }
 
 #container{ /*this is how you target an id*/
