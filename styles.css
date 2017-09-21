@@ -84,10 +84,10 @@ p{
   font-family: Georgia, "Times New Roman," serif;
   font-size: 0.8em;
   border-top:1px dotted black;
-  /*border-width:1px 0px;
+  border-width:1px 0px;
   border-style:dotted;
-  border-color:black;*/
-}
+  border-color:black;
+}*/
 
 img{ /*images styled with borders automatically, so clear the styling!*/
   display: block;
