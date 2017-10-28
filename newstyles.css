@@ -17,7 +17,7 @@
 .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
+
 /*  GRID OF FIVE  */
 .span_5_of_5 {
 	width: 100%;
@@ -163,7 +163,6 @@ p{
   flex-basis: 32%;
   margin-top: 5px;
   box-sizing: border-box;
-  box-flex: 1;
 }
 
 /* small screens*/
