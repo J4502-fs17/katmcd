@@ -151,7 +151,7 @@ p{
 .flex-container {
   display: flex;
 	flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: baseline;
   align-content: center;
