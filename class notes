@@ -1,0 +1,172 @@
+<!--grids
+
+add order, continuity, harmony, overall design and flexibility
+72 pixels per inch display everything on web
+
+types:
+-golden ratio
+-rule of thirds
+
+grids dependent upon technology used
+  -descriptive rather than declarative (more like convo than like speech)
+
+focus on problem solving first, aesthetics second
+components of user experience, not a tool to impose control
+the simpler, the more effective
+
+building grids
+- sketch on paper
+  - # of columns
+  - width of columns
+  - padding between columns
+  - # of pixels columns spread across
+
+--!>
+
+<!--mobile
+
+put buttons you don't want people to press on accident in the hard to reach places
+people will only continue scrolling if they have incentive to do so
+
+load time:
+-bundle together and minify css and java
+-limit or remove dependencies on heavy js libraries
+-limit or remove css grids
+-use css3 properties for things like drop shadows, rounded corners, gradients and the like to reduce dependence on images
+-write clean, semantic html
+
+touch sensitive considerations:
+-tap, double tap
+-drag, flick
+-pinch, spread
+-press, press and tap
+- hover doesnt work on mobile; you can use :focus instead, but dont use them for crucial UI
+
+apple UI display navigation logos online
+safe area layout guides, layout margins
+
+--!>
+
+<!--HTML5
+HTML5 doctype: <!DOCTYPE html>
+<meta charset="UTF-8">
+<script src="file.js"></script>
+
+-does not enforce the XHTML syntax - i.e. there are less rules!
+
+can wrap multiple elements in a single element
+
+use iframes for content that is already built/published
+
+rich media:
+the canvas element
+  -creates a content area on the page that's editable by user input
+    -provide an image as a fallback for non-HTML5
+audio
+  <audio controls>
+  <source src="file.mp3"/>
+  <source src="file.ogg"type="audio/ogg"/>
+  <a href="file.mp3">download the song</a>
+  </audio>
+    -there are fallbacks for unsupported audio
+  can add attributes:
+    <audio controls>
+
+video
+  <video src="video.mp4" controls width="360" height="240" poster="placeholder.jpg">
+  </video>
+
+
+native semantics added in HTML5 (use in place of divs)
+  - section: groups together thematically related content
+  - header: like a container for a group of introductory or navigational aids
+    - different than the <head> function!
+  - footer: contain info about its containing element (copyright info, sources)
+  - aside: used for sidebars, refers to the type of content, not the positioning (ex. pullquote, infobox)
+  - nav: navigation info, usually a set of links; can be inside header element
+  - article: used for self-contained related content
+
+--!>
+
+flexbox - CSS module mainly for one-dimensional layout where items need to move, flex, or wrap in a predictable way, but in one direction only
+grid layout - full two-dimensional grid, in which items can be placed exactly into spots where we need them to be
+
+FLEXBOX
+- main-axis
+  - direction controlled by flex-direction
+- main-start / main-end
+- main-size: width/height of a flex item is the item's main size
+- cross-axis (perpendicular to main axis)
+- cross-start / cross-end
+- cross-size
+
+to make a container a flex container, add a class and give it a value of display: flex;
+
+.container {
+  display: flex;
+  height: #px;
+  width: #px;
+  flex-flow: row; <- row or column(?)
+  flex-wrap: wrap; <- fits items to screen direction!
+  flex-wrap: wrapreverse; <- fits items and breaks starting with the last item
+  justify-content: flex-start/center/flex-end/space-between/space-around(like space-between but accounts for margins)
+  align-items: flex-start/flex-end/center/baseline/stretch(fills whole cross-axis based on defined height) <- defines alignment along the cross axis
+  align-content: flex-start/flex-end/
+
+}
+flex-flow: row wrap; <--- includes flex-flow (row) and flex-wrap (wrap) in one line of code
+
+.containera {
+  display: flex;
+  flex-flow: column;
+}
+
+responsive menus
+@media (min-width:600px){
+  .containera{
+    flex-direction: row;
+    justify-content: right;
+  }
+}
+
+@media (min-width:799px){
+  .item-1{
+    margin-right:auto;
+  }
+}
+
+@media (min-width:800px){
+  .navigation{
+    flex-flow: row;
+    justify-content: flex-end;
+  }
+  .navigation a:hover {
+    background:black;
+  }
+
+  .aside{
+  flex: 1 auto;
+  }
+
+  .main{
+    flex: 3 0;
+    order:2;
+  }
+
+  .aside-1{
+    order:1;
+  }
+
+  .aside-2{
+    order:3;
+  }
+
+  footer{
+    order:4;
+  }
+}
+
+.wrapper{
+  display: flex;
+  flex-flow: row;
+}
