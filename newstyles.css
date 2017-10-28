@@ -1,0 +1,205 @@
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF FIVE  */
+.span_5_of_5 {
+	width: 100%;
+}
+.span_4_of_5 {
+	width: 79.68%;
+}
+.span_3_of_5 {
+	width: 59.36%;
+}
+.span_2_of_5 {
+	width: 39.04%;
+}
+.span_1_of_5 {
+	width: 18.72%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*css font rules:
+font-family: 'Playfair Display', serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+h1{
+  color:#585858;
+  text-align: center;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 4.5vw;
+}
+
+h2{
+  color: #585858;
+  text-align: center;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 1em;
+}
+
+h3{
+  color: #585858;
+  text-align: center;
+  font-family:'Satisfy', cursive;
+  font-size: 2em;
+}
+
+/*body{
+  background-color:#807F7F;
+  font-family: 'Pathway Gothic One', 'Avenir Next Condensed Regular','Franklin Gothic Condensed', sans-serif;
+  font-size: 2em;
+}*/
+
+p{
+  color:#807F7F;
+  text-align: center;
+  font-family:'Quicksand', 'Helvetica', sans-serif;
+  font-size: 1em;
+}
+
+.header { /*this is how you target an id*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 12vw;
+  background-color:#cce5e9;
+}
+
+/*.header (max-width: 500px){ this is how you target an id
+  display: flex;
+  justify-content: center;
+  height: 8em;
+  background-color:#cce5e9;
+  font-size-adjust: 50%;
+}*/
+
+#nav li{
+  list-style-type:none;
+  margin-top: 5px;
+}
+
+#nav a:link, #nav a:visited{
+  color:#ffffff;
+  background-color: #7dcbd7;
+  font-weight:bold;
+  text-align: center;
+  text-decoration:none;
+  padding:6px;
+  font-family: 'Pathway Gothic One', 'Helvetica Neue', sans-serif;
+}
+
+#nav a:hover, #nav a:active{
+  background-color:#5c959e;
+}
+
+#nav{
+  padding:0;
+  text-align: center;
+}
+
+/*.header, .main, .nav, .aside, .footer{
+    flex: 1 100%;
+}*/
+
+.caption{ /*this is how you target a class*/
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:0.8em;
+  float: right;
+  margin-right:25px;
+  font-style:italic;
+  text-align:right;
+}
+
+/*@media (max-width:415px) {
+  .flex-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+  }
+}
+*/
+.flex-container {
+  display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+}
+
+.flex-item {
+  flex-grow: 0 ;
+  flex-shrink: 1;
+  flex-basis: 32%;
+  margin-top: 5px;
+  box-sizing: border-box;
+  box-flex: 1;
+}
+
+/* small screens*/
+/*@media (max-width: 500px){
+  .container {
+    display: flex;
+	   flex-direction: column;
+	    flex-wrap: wrap;
+	     justify-content: center;
+	      align-items: stretch;
+	       align-content: stretch;
+  }
+}
+*/
+
+/*
+#footer{
+  color:black;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.8em;
+  border-top: 1px dotted black;
+  border-width: 1px 0px;
+  border-style: dotted;
+  border-color: black;
+} */
+
+img{ /*images styled with borders automatically, so clear the styling!*/
+  display: block;
+  margin: auto;
+  border-style:none;
+}
+
+/*color notes
+hue- the gamut of pure colors; color at full saturation without tint or shade;
+tint- color mixed with white / shade- color mixed with black;
+hex colors - #rrggbb - responds to binary coding of computers, values between 00 and ff;
+parameter defines the intensity of color - values between 0 and 255;
+rgba - adds an alpha channel, adds transparency, value between 0.0 and 1.0;
+hsl - hue (degrees on color wheel from 0 to 360), saturation, and lightness;} */
