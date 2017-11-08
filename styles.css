@@ -13,6 +13,7 @@ h1{
   text-align: center;
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 4.5vw;
+
 }
 
 h2{
@@ -48,6 +49,16 @@ p{
   justify-content: center;
   height: 12vw;
   background-color:#cce5e9;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #585858;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #707070;
 }
 
 /*.header (max-width: 500px){ this is how you target an id
@@ -171,11 +182,3 @@ img{ /*images styled with borders automatically, so clear the styling!*/
   margin: auto;
   border-style:none;
 }
-
-/*color notes
-hue- the gamut of pure colors; color at full saturation without tint or shade;
-tint- color mixed with white / shade- color mixed with black;
-hex colors - #rrggbb - responds to binary coding of computers, values between 00 and ff;
-parameter defines the intensity of color - values between 0 and 255;
-rgba - adds an alpha channel, adds transparency, value between 0.0 and 1.0;
-hsl - hue (degrees on color wheel from 0 to 360), saturation, and lightness;} */
