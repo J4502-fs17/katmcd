@@ -1,3 +1,12 @@
+/*color notes
+hue- the gamut of pure colors; color at full saturation without tint or shade;
+tint- color mixed with white / shade- color mixed with black;
+hex colors - #rrggbb - responds to binary coding of computers, values between 00 and ff;
+parameter defines the intensity of color - values between 0 and 255;
+rgba - adds an alpha channel, adds transparency, value between 0.0 and 1.0;
+hsl - hue (degrees on color wheel from 0 to 360), saturation, and lightness;} */
+
+
 <!--grids
 
 add order, continuity, harmony, overall design and flexibility
