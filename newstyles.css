@@ -69,7 +69,7 @@ a:hover{
   font-size-adjust: 50%;
 }*/
 
-#nav li{
+li{
   list-style-type:none;
   margin-top: 5px;
 }
@@ -106,6 +106,13 @@ a:hover{
   font-style:italic;
   text-align:right;
 }
+.container-me{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
 
 /*@media (max-width:415px) {
   .flex-container{
@@ -119,24 +126,24 @@ a:hover{
 */
 .flex-container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-content: flex-start;
 }
 @media (min-width: 600px) {
 	.flex-container {
-		flex-direction: column;
+		flex-direction: row;
 	  justify-content: center;
 	}
+  .container-me{
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
 }
 
 .flex-item{
-  flex-grow: 0 ;
-  flex-shrink: 1;
-  flex-basis: 32%;
-  padding-top: 10px;
-  box-sizing: border-box;
-  box-flex: 1;
+  flex-grow: 1;
+  padding: 10px;
 }
 
 .frank {
@@ -156,12 +163,8 @@ a:hover{
   width: 300px;
   height: auto;
 }
-@media screen and (max-width: 400px) {
-  .frank div {width: 100px height:auto}
-  .frank { padding: 0; }
 
-}
-/*
+
 #footer{
   color:black;
   font-family: Georgia, 'Times New Roman', serif;
@@ -170,7 +173,7 @@ a:hover{
   border-width: 1px 0px;
   border-style: dotted;
   border-color: black;
-} */
+}
 
 img{ /*images styled with borders automatically, so clear the styling!*/
   display: block;
